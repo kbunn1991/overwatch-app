@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "name": "Zenyatta",
+    "role": "Support",
+    "abilities": "Orb of Discord, Transcendence"
+  },
+  {
+    "id": "02",
+    "name": "Mercy",
+    "role": "Support",
+    "abilities": "Heal, Damage Burst, "
+  },
+  {
+    "id": "03",
+    "name": "Dva",
+    "role": "Tank",
+    "abilities": "Defense Matrix, Self Destruct"
+  },
+  {
+    "id": "04",
+    "name": "Reinhardt",
+    "role": "Tank",
+    "abilities": "Charge, Earthshatter"
+  },
+  {
+    "id": "05",
+    "name": "Hanzo",
+    "role": "Defense",
+    "abilities": "Storm Arrow, Dragonstrike"
+  },
+  {
+    "id": "06",
+    "name": "Mei",
+    "role": "Defense",
+    "abilities": "Cryo-Freeze, Blizzard"
+  },
+  {
+    "id": "07",
+    "name": "Tracer",
+    "role": "Offense",
+    "abilities": "Recall, Pulse Bomb"
+  },
+  {
+    "id": "08",
+    "name": "Sombra",
+    "role": "Offense",
+    "abilities": "Hack, EMP"
+  }
+]
