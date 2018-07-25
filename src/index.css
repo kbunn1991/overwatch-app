@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta|Raleway');
+
 body {
   margin: 0;
   padding: 0;
@@ -7,6 +9,15 @@ body {
   /* background-size: cover; */
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Allerta';
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 #outer {
@@ -24,15 +35,17 @@ body {
 }
 
 .bigBox {
-  margin-top: 7%;
-  margin-left: auto; 
+  margin-top: 4%;
+  margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
   border: 1px solid #f8f8f8;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
+  background-color: rgba(255,255,255,.9);
   padding: 5%;
   border-radius: 5%;
+  border: 0px solid #F8D7D6;
 }
 
 .heroBox {
@@ -51,4 +64,63 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+.chooseHero {
+  font-family: 'Allerta';
+  padding-top: 4%;
+  font-size: 12px; 
+  text-transform: uppercase;
+}
+
+.chooseHero::before {
+  content: '';
+  background-image: url('https://k.nickpic.host/vT9m1z.png');
+  background-size: 10px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px; 
+  height: 10px;
+}
+
+.chooseHero::after {
+  content: '';
+  background-image: url('https://k.nickpic.host/vT9m1z.png');
+  background-size: 10px 10px;
+  display: inline-block;
+  margin-left: 5px;
+  width: 10px; 
+  height: 10px;
+}
+
+.infoBox ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.infoBox li {
+  font-family: 'Raleway';
+}
+
+.infoBox li .hName {
+  font-weight: bold;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.infoBox li .hRole {
+  margin-top: 5px; 
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.infoBox li .hAbilities {
+  margin-top: 15px; 
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
 }

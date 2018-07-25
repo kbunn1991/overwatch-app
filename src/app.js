@@ -37,12 +37,12 @@ export default class App extends React.Component {
   render() {
     console.log(this.state.heroes);
     return (
-      <div className="bigBox">
-        < Header />
-        < ClassBox filterIcons={e => this.filterIcons(e)} onClick={heroClass => this.setHeroClass(heroClass)} />
-        < HeroBox display={this.state.display} filterInfo={e => this.filterInfo(e)} />
-        < InfoBox heroes={this.state.heroes} />
-      </div>
+        <div className="bigBox">
+          < Header />
+          < ClassBox filterIcons={e => this.filterIcons(e)} onClick={heroClass => this.setHeroClass(heroClass)} />
+          < HeroBox display={this.state.display} filterInfo={e => this.filterInfo(e)} />
+          < InfoBox heroes={this.state.heroes} />
+        </div>
     );
 
   }
